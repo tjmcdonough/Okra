@@ -1,3 +1,5 @@
+<script src="https://cdn.okra.ng/v2/bundle.js"></script>
+
 <template>
   <div id="app">
     <button v-on:click="okrawidget">Open Widget</button>
