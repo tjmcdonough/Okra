@@ -1,6 +1,6 @@
 {
-  "name": "okra",
-  "version": "0.1.2",
+  "name": "okra-js",
+  "version": "0.2.0",
   "scripts": {
     "build": "weweb build",
     "serve": "weweb serve"
@@ -10,6 +10,5 @@
   },
   "dependencies": {
     "okra-js": "^2.0.2"
-  },
-  "license": "ISC"
+  }
 }
