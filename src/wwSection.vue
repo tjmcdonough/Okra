@@ -1,4 +1,4 @@
-<!-- <template>
+<template>
   <div id="app">
     <button v-on:click="okrawidget">Open Widget</button>
   </div>
@@ -43,4 +43,4 @@ body#okra-widget-body {
     background-color: rgba(0,0,0,0.5) !important;
 }
 
-</style> -->
+</style>
