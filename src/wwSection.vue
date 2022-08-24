@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div id="app">
     <button v-on:click="okrawidget">Open Widget</button>
   </div>
@@ -17,10 +17,11 @@ export default {
         token: '60a24b9d80c1940297279802', // Your token from the okra dashboard
         products: ['auth','identity','balance','transactions', 'income'], //in lowercase
         onSuccess: function(data){
-            location.href = 'credit-readiness-financials?result=success';
+            // POST to API
         },
         onClose: function(){
-            location.href = 'credit-readiness-financials?result=cancel';
+            // Go back 
+            //location.href = 'credit-readiness-financials?result=cancel';
         }
     })
   }
@@ -42,4 +43,4 @@ body#okra-widget-body {
     background-color: rgba(0,0,0,0.5) !important;
 }
 
-</style>
+</style> -->
