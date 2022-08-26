@@ -1,23 +1,26 @@
 <template>
   <div id="app">
-    <button v-on:click="okrawidget">Open Widget</button>
+    <button type="button" @click="okraWidget">Open Widget</button>
   </div>
 </template>
+
 
 <script>
 import Okra from 'okra-js'
 
 export default {
       methods: {
-        okrawidget: Okra.buildWithShortUrl({
-        short_url: 'izX93-Rx5',
-        onSuccess: function(data){
-            //location.href = '/credit-readiness-financials?result=success';
-        },
-        onClose: function(){
-            //location.href = '/credit-readiness-financials?result=cancel';
-        }
-    })
+        okraWidget() { 
+          Okra.buildWithShortUrl({
+          short_url: 'Ht63Wbkps',
+          onSuccess: function(data){
+              //location.href = '/credit-readiness-financials?result=success';
+          },
+          onClose: function(){
+              //location.href = '/credit-readiness-financials?result=cancel';
+          }
+      })
+    }
   }
 }
 
