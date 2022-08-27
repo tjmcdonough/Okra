@@ -1,7 +1,7 @@
 export default {
   editor: {
     label: {
-      en: "My Section",
+      en: "Okra",
     },
   },
   properties: {
