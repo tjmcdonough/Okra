@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <button type="button" @click="okraWidget">Open Widget</button>
+    <button type="button" class="next-button" @click="okraWidget">Next</button>
+    <div class="fas fa-chevron-right" aria-hidden="true" data-v-6a7be0d0=""></div>
   </div>
 </template>
 
@@ -34,6 +35,14 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+.next-button {
+    font-family:"Bw Modelica", sans-serif;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 0px;
+    line-height: 17px;
 }
 
 </style>
