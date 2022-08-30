@@ -44,13 +44,12 @@ export default {
     letter-spacing: 0px;
     line-height: 17px;
     position: absolute;
-    left: -33px;
-    top: 6px;
+    left: -38px;
+    top: 7px;
 }
 
 .next-icon {
   font-size: 30px;
-  padding-left: 6px;
 }
 
 </style>
