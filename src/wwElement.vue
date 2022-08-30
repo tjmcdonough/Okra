@@ -1,10 +1,9 @@
 <template>
   <div id="app">
     <button type="button" class="next-button" @click="okraWidget">Next</button>
-    <div class="fas fa-chevron-right" aria-hidden="true" data-v-6a7be0d0=""></div>
+    <div class="fas fa-chevron-right next-icon" aria-hidden="true" data-v-6a7be0d0=""></div>
   </div>
 </template>
-
 
 <script>
 import Okra from 'okra-js'
@@ -28,6 +27,7 @@ export default {
 </script>
 
 <style>
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -43,6 +43,14 @@ export default {
     color: rgb(0, 0, 0);
     letter-spacing: 0px;
     line-height: 17px;
+    position: absolute;
+    left: -33px;
+    top: 6px;
+}
+
+.next-icon {
+  font-size: 30px;
+  padding-left: 6px;
 }
 
 </style>
