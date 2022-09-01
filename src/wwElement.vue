@@ -12,7 +12,7 @@ export default {
       methods: {
         okraWidget() { 
           Okra.buildWithShortUrl({
-          short_url: 'Ht63Wbkps',
+          short_url: 'cnO-f0BIz',
           onSuccess: function(data){
               //location.href = '/credit-readiness-financials?result=success';
           },
