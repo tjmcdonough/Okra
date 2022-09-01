@@ -52,8 +52,4 @@ export default {
   font-size: 30px;
 }
 
-.okra-widget-body {
-  background-color: rgba(0,0,0, 0.5) !important;
-}
-
 </style>
