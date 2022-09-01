@@ -53,7 +53,7 @@ export default {
 }
 
 .okra-widget-body {
-  background-color: rgb(0,0,0, 0.5) !important;
+  background-color: rgba(0,0,0, 0.5) !important;
 }
 
 </style>
