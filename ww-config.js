@@ -12,5 +12,12 @@ export default {
       type: "Text",
       bindable: true,
     },
+    financialComplete: {
+      label: {
+        en: "Is Financial Complete?",
+      },
+      type: "Boolean",
+      bindable: true,
+    },
   },
 };

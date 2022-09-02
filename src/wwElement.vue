@@ -18,6 +18,7 @@ export default {
           Okra.buildWithShortUrl({
           short_url: 'cnO-f0BIz',
           onSuccess: function(data){
+            this.content.financialComplete = true;
               //location.href = '/credit-readiness-financials?result=success';
           },
           onClose: function(){
