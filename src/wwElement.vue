@@ -9,8 +9,12 @@
 import Okra from 'okra-js'
 
 export default {
+      props: {
+        content: {type: Object, required: true}
+      },
       methods: {
         okraWidget() { 
+          const accessToken = this.content.accessToken;
           Okra.buildWithShortUrl({
           short_url: 'cnO-f0BIz',
           onSuccess: function(data){
